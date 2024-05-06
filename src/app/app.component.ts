@@ -10,7 +10,8 @@ import { NavComponent } from './components/template/nav/nav.component';
   imports: [RouterOutlet,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    
   ],
   templateUrl: './app.component.html'
 })

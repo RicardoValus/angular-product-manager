@@ -3,6 +3,8 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/template/header/header.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProductService } from './components/product/product.service';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +13,10 @@ import { NavComponent } from './components/template/nav/nav.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
-    
+    HttpClientModule,
+  ],
+  providers: [
+    ProductService,
   ],
   templateUrl: './app.component.html'
 })

@@ -1,19 +1,29 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Caneta",
-            "price": 5.89
-        },
-        {
-            "id": 2,
-            "name": "Notebook Mac Pro",
-            "price": 12000.89
-        },
-        {
-            "id": 3,
-            "name": "Sansung S20+",
-            "price": 5000.89
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "name": "Caneta",
+      "price": 5.89
+    },
+    {
+      "id": "2",
+      "name": "Notebook Mac Pro",
+      "price": 12000.89
+    },
+    {
+      "id": "0399",
+      "name": "Carrinho",
+      "price": "308.00"
+    },
+    {
+      "id": "871c",
+      "name": "Geladeira",
+      "price": "1893.99"
+    },
+    {
+      "id": "f056",
+      "name": "KLKKKKKKKKKKK",
+      "price": "999.99"
+    }
+  ]
 }

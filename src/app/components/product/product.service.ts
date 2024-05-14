@@ -3,6 +3,7 @@ import { MatSnackBar } from '@angular/material/snack-bar'
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Product } from './product-create/product.model';
 import { Observable } from 'rxjs';
+import { url } from 'node:inspector';
 
 
 @Injectable({
@@ -43,5 +44,8 @@ export class ProductService {
     return this.http.put<Product>(url, product)
   }
 
-
+  delete(id: any): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.delete<Product>(url)
+  }
 }
